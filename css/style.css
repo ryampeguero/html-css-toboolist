@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, sans-serif; 
 }
 
 button{
@@ -11,7 +12,14 @@ button{
 
     padding: 10px;
     border-radius: 10px;
+    border: 1px solid lightgrey;
     
+}
+
+.prova{
+    display: inline-block;
+    
+    border: 1px solid black;
 }
 
 /* COMMON */
@@ -19,33 +27,63 @@ button{
     width: 80%;
     margin: 0 auto;
     background-color: #edf2f7;
+    
+}
+
+.mt-02{
+    margin-top: 2px;
 }
 
 .mt-4{
     margin-top: 40px;
 }
 
-.bx-shadow{
-    box-shadow: 0 10px 20px lightslategray;
+/* Trovare un modo migliore per fare shadow!!!!!! */
+.bx-shadow-g{
+    box-shadow: 0 10px 20px -12px gray;
 }
 
-.form-control{
-    padding: 10px;
-    border-radius: 10px;
-  
+.bx-shadow-lg{
+    box-shadow: 0 10px 20px -20px lightslategray;
 }
+
+main .container{
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    box-shadow: 0 10px 20px -20px lightslategray;
+}
+
+
 /* HEADER */
 .header-banner{
     background-color: #edf2f7;
-    border: 2px solid black;
 
 }
 
 /* img è inline-block non ti permetterà di centrarlo se non lo trasformi in block con display */
 .header-banner img{ 
     display: block;
-    border: 2px solid black;
     margin: 0 auto;
 }
 
 /* MAIN */
+.task-form{
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+
+.form-control{
+    /* Per posizionarlo centralmente */
+    /* display: inline-block; 
+        margin: 0 auto;     */
+    
+    padding: 10px; 
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+  
+}
