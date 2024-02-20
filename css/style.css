@@ -1,0 +1,51 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button{
+    background-color: #14aaf5;
+    color: white;
+
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+/* COMMON */
+.container{
+    width: 80%;
+    margin: 0 auto;
+    background-color: #edf2f7;
+}
+
+.mt-4{
+    margin-top: 40px;
+}
+
+.bx-shadow{
+    box-shadow: 0 10px 20px lightslategray;
+}
+
+.form-control{
+    padding: 10px;
+    border-radius: 10px;
+  
+}
+/* HEADER */
+.header-banner{
+    background-color: #edf2f7;
+    border: 2px solid black;
+
+}
+
+/* img è inline-block non ti permetterà di centrarlo se non lo trasformi in block con display */
+.header-banner img{ 
+    display: block;
+    border: 2px solid black;
+    margin: 0 auto;
+}
+
+/* MAIN */
