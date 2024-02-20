@@ -16,6 +16,10 @@ button{
     
 }
 
+ul{
+    list-style: none;
+}
+
 .prova{
     display: inline-block;
     
@@ -47,13 +51,43 @@ button{
     box-shadow: 0 10px 20px -20px lightslategray;
 }
 
-main .container{
-    border-top-right-radius: 5px;
-    border-top-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    border-bottom-left-radius: 5px;
-    box-shadow: 0 10px 20px -20px lightslategray;
+.circle-check{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    /* Centrare il numero in verticale Uguale all'altezza */
+    line-height: normal;
+    
+    border: 1px solid #54d0bb;
+    color: #54d0bb;
+    /* Centrare il numero in orizzontale  */
+    text-align: center;
+
+    border-radius: 50%;
+    vertical-align: middle;
+
+    font-size: 10px;
 }
+
+.circle-cross{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    /* Centrare il numero in verticale Uguale all'altezza */
+    line-height: normal;
+    
+    border: 1px solid #ff1010;
+    color: #ff1010;
+    /* Centrare il numero in orizzontale  */
+    text-align: center;
+
+    border-radius: 50%;
+    vertical-align: middle;
+
+    font-size: 5px;
+}
+
+
 
 
 /* HEADER */
@@ -69,13 +103,22 @@ main .container{
 }
 
 /* MAIN */
+
+main .container{
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    box-shadow: 0 10px 20px -20px lightslategray;
+}
+
+
 .task-form{
     margin: 0 auto;
     text-align: center;
     padding: 20px;
     
 }
-
 
 .form-control{
     /* Per posizionarlo centralmente */
@@ -87,3 +130,28 @@ main .container{
     border: 1px solid lightgrey;
   
 }
+
+.single-task{
+    background-color: #ffffff;
+
+    border: 1px solid black;
+    border-radius: 5px;
+    
+    margin-top: 5px;
+    padding: 10px;
+}
+
+.type-task{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    
+    width: 70px;
+    vertical-align: middle;
+}
+
+.tp-edit{
+    background-color: #14aaf5;
+}
+
