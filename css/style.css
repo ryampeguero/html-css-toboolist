@@ -18,12 +18,8 @@ button{
 
 ul{
     list-style: none;
-}
-
-.prova{
-    display: inline-block;
-    
-    border: 1px solid black;
+    color: #434851;
+    margin-top: 20px;
 }
 
 /* COMMON */
@@ -34,12 +30,20 @@ ul{
     
 }
 
+.border{
+    border: 1px solid black;
+}
+
 .mt-02{
     margin-top: 2px;
 }
 
 .mt-4{
     margin-top: 40px;
+}
+
+.pt-1{
+    padding-top: 10px;
 }
 
 /* Trovare un modo migliore per fare shadow!!!!!! */
@@ -51,10 +55,11 @@ ul{
     box-shadow: 0 10px 20px -20px lightslategray;
 }
 
+/* Check and Cross da migliorare */
 .circle-check{
     display: inline-block;
-    width: 15px;
-    height: 15px;
+    width: 17px;
+    height: 17px;
     /* Centrare il numero in verticale Uguale all'altezza */
     line-height: normal;
     
@@ -71,8 +76,8 @@ ul{
 
 .circle-cross{
     display: inline-block;
-    width: 15px;
-    height: 15px;
+    width: 17px;
+    height: 17px;
     /* Centrare il numero in verticale Uguale all'altezza */
     line-height: normal;
     
@@ -84,7 +89,7 @@ ul{
     border-radius: 50%;
     vertical-align: middle;
 
-    font-size: 5px;
+    font-size: 10px;
 }
 
 
@@ -145,13 +150,34 @@ main .container{
     display: inline-block;
     color: white;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 15px;
     
-    width: 70px;
+    padding: 5px;
+    width: 80px;
     vertical-align: middle;
 }
 
+/* Task types */
 .tp-edit{
     background-color: #14aaf5;
 }
 
+.tp-goal{
+    background-color: #ab5de6;
+}
+
+.tp-recr{
+    background-color: #2cc6ab;
+}
+
+.tp-mobile{
+    background-color: #ff9b00;
+}
+
+.tp-website{
+    background-color: #ec4a9d;
+}
+
+.tp-sales{
+    background-color: #a3d116;
+}
