@@ -55,6 +55,10 @@ ul{
     box-shadow: 0 10px 20px -20px lightslategray;
 }
 
+.read{
+    text-decoration: line-through;
+}
+
 /* Check and Cross da migliorare */
 .circle-check{
     display: inline-block;
@@ -72,6 +76,7 @@ ul{
     vertical-align: middle;
 
     font-size: 10px;
+    
 }
 
 .circle-cross{
@@ -91,8 +96,6 @@ ul{
 
     font-size: 10px;
 }
-
-
 
 
 /* HEADER */
